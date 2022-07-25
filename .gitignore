@@ -1,0 +1,13 @@
+*~
+*.ipynb_checkpoints
+*.swp
+_site
+*.glob
+*.vo
+.*.aux
+.*.d
+\#*
+*.vos
+*.vok
+*.cache
+.DS_Store
