@@ -29,12 +29,13 @@ will have hands on experience on implementing a compiler for a subset of Java.
 * **Where:** CS34 CS Building
 * **When:** B Slot: M 09:00 to 09:50, T 08:00 to 08:50, W 13:00 to 13:50, F 11:00 to 11:50. 
 * **Slack**: [http://cs3300m22iitm.slack.com/](http://cs3300m22iitm.slack.com/) Join using `<your_email_id>@smail.iitm.ac.in`.
-* **Moodle**: [https://courses.iitm.ac.in/course/view.php?id=6280](https://courses.iitm.ac.in/course/view.php?id=6280)
+* **Moodle**: [https://coursesnew.iitm.ac.in/course/view.php?id=306](https://coursesnew.iitm.ac.in/course/view.php?id=306)
 * **TAs:** 
 
 | Name | Email |
 |------|-------|
 | Vimala S | cs19d750@smail.iitm.ac.in | 
+| TBD | TBD |
 
 ## Textbooks
 
