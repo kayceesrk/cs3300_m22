@@ -8,7 +8,7 @@ In the first assignment, we will be using
 [Flex](https://www.cs.virginia.edu/~cr4bd/flex-manual/), which is a tool for
 generating lexical analyzers.
 
-The slides and demo files are available in the [Github repo]().
+The slides and demo files are available in the [Github repo](https://github.com/kayceesrk/cs3300_m22/tree/main/labs/01_flex).
 
 # Mini-assignments
 
