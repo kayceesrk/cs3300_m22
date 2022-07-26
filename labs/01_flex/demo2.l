@@ -6,7 +6,7 @@
  *        (2) $ gcc lex.yy.c -lfl
  *        (3) $ ./a.out
  *            stdin> username
- *	      stdin> Ctrl-D
+ *        stdin> Ctrl-D
  * Question: What is the purpose of '%{' and '%}'?
  *           What else could be included in this section?
  */
@@ -17,11 +17,11 @@
 %}
 
 %%
-username	printf("%s\n", getlogin());
+username  printf("%s\n", getlogin());
 %%
 
 int main()
 {
   yylex();
-	return 0;
+  return 0;
 }

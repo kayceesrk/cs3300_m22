@@ -11,5 +11,5 @@ int count = 0;
 
 int main() {
   yylex();
-	return 0;
+  return 0;
 }

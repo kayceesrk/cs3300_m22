@@ -16,5 +16,5 @@ permalink: /schedule/
 
 | # | Topic | Dates | Page |
 |--:|-------|-------|------|
-| 1 | Flex  | 02/08 | [01_flex](/cs3300_m22/labs/01_flex/) |
+| 1 | Flex  | 02/08 | [01_flex](/cs3300_m22/labs/01_flex.html) |
 
