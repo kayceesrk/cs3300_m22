@@ -27,8 +27,11 @@ will have hands on experience on implementing a compiler for a subset of Java.
 
 * **Instructor:** [KC Sivaramakrishnan](http://kcsrk.info), who goes by "KC".
 * **Where:** CS34 CS Building
-* **When:** B Slot: M 09:00 to 09:50, T 08:00 to 08:50, W 13:00 to 13:50, F 11:00 to 11:50. 
-* **Slack**: [http://cs3300m22iitm.slack.com/](http://cs3300m22iitm.slack.com/) Join using `<your_email_id>@smail.iitm.ac.in`.
+* **When:** 
+  + **Lectures:** B Slot: M 09:00 to 09:50, Tu 08:00 to 08:50, W 13:00 to 13:50,
+    F 11:00 to 11:50. 
+  + **Lab:** Q slot: Tu 14:00 to 16:45.
+* **Slack**: [http://cs3300m22iitm.slack.com/](http://cs3300m22iitm.slack.com/). Join using `<your_email_id>@smail.iitm.ac.in`.
 * **Moodle**: [https://coursesnew.iitm.ac.in/course/view.php?id=306](https://coursesnew.iitm.ac.in/course/view.php?id=306)
 * **TAs:** 
 
@@ -36,6 +39,8 @@ will have hands on experience on implementing a compiler for a subset of Java.
 |------|-------|
 | Vimala S | cs19d750@smail.iitm.ac.in | 
 | TBD | TBD |
+
+<br/> 
 
 ## Textbooks
 

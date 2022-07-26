@@ -23,4 +23,9 @@ markdown: kramdown
 permalink: blog/:year/:month/:title
 excerpt_separator: "<!--more-->"
 
+collections:
+pages:
+  output: true
+  permalink: /:path/
+
 include: ['_images', '_css']
