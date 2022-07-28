@@ -17,6 +17,8 @@ permalink: /resources/
 * Flex manual: [https://www.cs.virginia.edu/~cr4bd/flex-manual/](https://www.cs.virginia.edu/~cr4bd/flex-manual/)
   + More reference: See section 3.5.2 of the dragon book.
 * Bison manual: [https://www.gnu.org/software/bison/manual/](https://www.gnu.org/software/bison/manual/)
+* Books
+  + "Lex & Yacc", by Levine, Mason and Brown (O’Reilly, 1992).
 
 ## JavaCC 
 

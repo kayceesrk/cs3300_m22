@@ -24,7 +24,7 @@ Assume that the final program is `exercise1.c`. Now consider the program
 spaces. You should be able to do:
 
 ```bash
-$ ./exercise1.c < test.c > test_spaces_removed.c
+$ ./exercise1.exe < test.c > test_spaces_removed.c
 ```
 
 which produces `test_spcaes_removed.c` which replaces tabs with spaces and
