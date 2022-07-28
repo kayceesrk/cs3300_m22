@@ -10,6 +10,7 @@ permalink: /schedule/
 |--:|-------|-------|-----------|----------|
 | 1 | Introduction | 25/07, 26/07, 27/07 | [01_introduction.pdf](slides/01_introduction.pdf) | |
 | 2 | Lexical Analysis | 27/07 | [02_lexical_analysis.pdf](slides/02_lexical_analysis.pdf) | |
+| 3 | Parsing | | [03_parsing.pdf](slides/03_parsing.pdf) | |
 
 <br/>
 
