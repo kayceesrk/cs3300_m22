@@ -33,3 +33,12 @@ JTB is a syntax tree builder to be used with the Java Compiler Compiler (JavaCC)
 parser generator.  
 
 * JTB home page: [http://compilers.cs.ucla.edu/jtb/](http://compilers.cs.ucla.edu/jtb/)
+
+## Git
+
+You will be developing large programs with 100s of lines of code. It is a good
+idea to learn and use version control system to manage your code development. My
+recommendation is to [learn Git version control
+system](https://docs.github.com/en/get-started/using-git/about-git). Git is not
+essential for the course, but learning it would serve you well in the years to
+come.
