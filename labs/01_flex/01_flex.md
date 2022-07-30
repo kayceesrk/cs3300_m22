@@ -124,3 +124,10 @@ where there are no macro definitions anymore, and the macros have been replaced
 in the body of the program. For simplicity, assume that there are at most 8
 macros allowed, and the `MACRONAME` and `REPLACEMENT` do not exceed 64
 characters each.
+
+## References
+
+* Flex manual: [https://www.cs.virginia.edu/~cr4bd/flex-manual/](https://www.cs.virginia.edu/~cr4bd/flex-manual/)
+* More reference: See section 3.5.2 of the dragon book.
+* "Lex & Yacc", by Levine, Mason and Brown (O’Reilly, 1992), Chapter 1, [pdf](https://web.iitd.ac.in/~sumeet/flex__bison.pdf)
+

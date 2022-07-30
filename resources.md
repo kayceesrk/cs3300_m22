@@ -18,7 +18,7 @@ permalink: /resources/
   + More reference: See section 3.5.2 of the dragon book.
 * Bison manual: [https://www.gnu.org/software/bison/manual/](https://www.gnu.org/software/bison/manual/)
 * Books
-  + "Lex & Yacc", by Levine, Mason and Brown (O’Reilly, 1992).
+  + "Lex & Yacc", by Levine, Mason and Brown (O’Reilly, 1992) [pdf](https://web.iitd.ac.in/~sumeet/flex__bison.pdf)
 
 ## JavaCC 
 
