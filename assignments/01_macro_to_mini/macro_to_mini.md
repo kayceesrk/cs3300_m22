@@ -40,7 +40,7 @@ processing). Overloading is not allowed in MacroJava. The MacroJava statement
 MacroJava supports both inline as well as C style comments, but does not support
 nested comments.
 
-Some sample MacroJava programs can be found [here]().
+Some sample MacroJava programs can be found [here](https://github.com/kayceesrk/cs3300_m22/tree/main/assignments/01_macro_to_mini/macro_java_examples).
 
 ### Specification
 
@@ -106,7 +106,7 @@ statement `System.out.println( ... );` can only print integers. The MiniJava
 expression `e1 && e2` is of type boolean, and both `e1` and `e2` must be of type
 boolean.
 
-Some sample MiniJava programs can be found [here]().
+Some sample MiniJava programs can be found [here](https://github.com/kayceesrk/cs3300_m22/tree/main/assignments/01_macro_to_mini/mini_java_examples).
 
 ### Specification
 
