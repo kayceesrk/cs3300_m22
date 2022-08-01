@@ -9,10 +9,12 @@ Flex and Bison.
 
 ## Assignment details
 
-The Flex file should be named as `A1.l` and the Bison file should be named as
-`A1.y`.
+Your submission should be named `<YOUR-ROLLNO>_P0.tar.gz` compressed file. For
+example, if your roll number is `cs20b220`, then the file should be named
+`cs20b220_P0.tar.gz`. The compressed gzip archive should contain two files. A
+Flex file named as `A1.l` and a Bison file named as `A1.y`.
 
-If the `X.java` is a valid MacroJava program, then the following commands should
+If `X.java` is a valid MacroJava program, then the following commands should
 generate the correct MiniJava code `Y.java`. Take input from standard input and
 write to standard output.
 
