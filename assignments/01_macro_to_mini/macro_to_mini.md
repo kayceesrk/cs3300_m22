@@ -113,7 +113,6 @@ Some sample MiniJava programs can be found [here](https://github.com/kayceesrk/c
 ### Specification
 
 ```
-
                      Goal ::= MainClass ( TypeDeclaration )* <EOF>
                 MainClass ::= "class" Identifier "{" "public" "static" "void" "main" "(" "String" "[" "]" Identifier ")" "{" PrintStatement "}" "}"
           TypeDeclaration ::= ClassDeclaration
