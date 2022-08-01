@@ -4,5 +4,5 @@ clean:
 %.exe: %.l %.y
 	flex $<
 	bison $(word 2,$^)
-	gcc $*.tab.c -o $@ -lfl -ly
-	#gcc $*.tab.c -o $@ -ll -ly #on macOS
+	gcc $*.tab.c -o $@ -lfl
+	#gcc $*.tab.c -o $@ -ll #on macOS

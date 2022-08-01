@@ -5,7 +5,13 @@ permalink: /assignments/
 ---
 
 All assignments should be submitted through the [course
-moodle](https://courses.iitm.ac.in/course/view.php?id=4939).
+moodle](https://courses.iitm.ac.in/course/view.php?id=4939). They are due at
+11:59 PM on the due date.
+
+| # | Topic | Due Date | Link |
+|--:|-------|----------|------|
+| 1 | MacroJava to MiniJava | 21/08/2022 | [macro_to_mini](/cs3300_m22/assignments/macro_to_mini.html) |
+
 
 <br/>
 
