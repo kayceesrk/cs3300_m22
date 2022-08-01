@@ -16,11 +16,14 @@ The slides and demo files are available in the [Github repo](https://github.com/
 
 # Mini-assignments
 
-## Exercise 1
+Extend the demo files in the Github repo to handle `-`, `*` and `/` operators
+taking into account precedence and associativity. FYI
 
-## Exercise 2
-
-## Exercise 3
+* **demo1:** Accepts valid arithmetic expressions in infix notation and rejects
+  invalid ones.
+* **demo2:** Converts infix to postfix expressions.
+* **demo3:** Computes the value of the arithmetic expressions. Includes single
+  character variables. 
 
 ## References
 

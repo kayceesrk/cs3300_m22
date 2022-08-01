@@ -130,4 +130,3 @@ characters each.
 * Flex manual: [https://www.cs.virginia.edu/~cr4bd/flex-manual/](https://www.cs.virginia.edu/~cr4bd/flex-manual/)
 * More reference: See section 3.5.2 of the dragon book.
 * "Flex & Bison", by John Levine (O’Reilly, 2009), Chapter 1, [pdf](https://web.iitd.ac.in/~sumeet/flex__bison.pdf)
-
