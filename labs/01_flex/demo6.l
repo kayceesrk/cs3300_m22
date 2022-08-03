@@ -21,7 +21,7 @@ int pop () {
 
 int get_final_result () {
   if (sp != 1) {
-	  printf ("invalid infix expression\n");
+	  printf ("invalid postfix expression\n");
 		exit (1);
 	}
 	return pop ();

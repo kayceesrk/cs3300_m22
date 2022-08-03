@@ -2,7 +2,7 @@
  * Sample Scanner2:
  * Description: Count the number of characters and the number of lines
  *              from standard input
- * Usage: (1) $ flex sample2.lex
+ * Usage: (1) $ flex demo3.lex
  *        (2) $ gcc lex.yy.c -lfl
  *        (3) $ ./a.out
  *            stdin> whatever you like
