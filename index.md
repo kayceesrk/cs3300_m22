@@ -35,10 +35,20 @@ will have hands on experience on implementing a compiler for a subset of Java.
 * **Moodle**: [https://coursesnew.iitm.ac.in/course/view.php?id=306](https://coursesnew.iitm.ac.in/course/view.php?id=306)
 * **TAs:** 
 
-| Name | Email |
-|------|-------|
-| Vimala S | cs19d750@smail.iitm.ac.in | 
-| TBD | TBD |
+| Name | Email | Lead TA for Assignment |
+|------|-------|------------------------|
+| Vimala S	                    | CS19D750@smail.iitm.ac.in |   |
+| Sheera Shamsu	                | CS20D001@smail.iitm.ac.in | 2 |
+| Anukul Dewangan	              | CS22M016@smail.iitm.ac.in |   | 
+| Ashok Rajeev	                | CS22M023@smail.iitm.ac.in |   | 
+| Bala Chandra Reddy Yammanuru	| CS22M027@smail.iitm.ac.in |   |
+| Bhavesh Surendra Singh	      | CS22M030@smail.iitm.ac.in |   |
+| Jyothishmathi C V	            | CS22M049@smail.iitm.ac.in | 2 |
+| Kuldeep Yadav	                | CS22M053@smail.iitm.ac.in |   | 
+| Pankaj Singh Rawat	          | CS22M062@smail.iitm.ac.in |   | 
+| Raj Uday Mahajan	            | CS22M067@smail.iitm.ac.in | 1 | 
+| Ravi Vishwakarma	            | CS22M070@smail.iitm.ac.in | 1 |
+| Sarthak Naithani	            | CS22M078@smail.iitm.ac.in |   |
 
 <br/> 
 
