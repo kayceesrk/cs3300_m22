@@ -1,8 +1,8 @@
-#define ZERO() (0+0)
-#define ONE() (1+0)
-#define print(arg) {System.out.println(arg);} 
-#define LARGE() (9999+0)
-#define INPUT() (20+0)
+#defineExpr0 ZERO() (0+0)
+#defineExpr0 ONE() (1+0)
+#defineStmt1 print(arg) {System.out.println(arg);} 
+#defineExpr0 LARGE() (9999+0)
+#defineExpr0 INPUT() (20+0)
 class BinarySearch{
     public static void main(String[] a){
 	System.out.println(new BS().Start(INPUT()));
