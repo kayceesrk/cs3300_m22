@@ -7,6 +7,30 @@ permalink: /assignments/macro_to_mini
 The goal of this assignment is to write a MacroJava to MiniJava translator using
 Flex and Bison. 
 
+## Installation
+
+### Ubuntu
+
+```bash
+$ sudo apt install flex bison
+```
+
+### macOS
+
+I recommend installing through [Homebrew](https://brew.sh/). Install Homebrew
+first using the instructions on the Homebrew website and then:
+
+
+```bash
+$ brew install flex bison
+```
+
+### Windows
+
+Install [Ubuntu on
+VirtualBox](https://ubuntu.com/tutorials/how-to-run-ubuntu-desktop-on-a-virtual-machine-using-virtualbox#1-overview).
+Then follow instructions for Ubuntu.
+
 ## Assignment details
 
 Your submission should be named `<YOUR-ROLLNO>_P0.tar.gz` compressed file. For
