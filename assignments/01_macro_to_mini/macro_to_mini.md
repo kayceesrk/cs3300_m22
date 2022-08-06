@@ -27,8 +27,11 @@ $ brew install flex bison
 
 ### Windows
 
-Install [Ubuntu on
-VirtualBox](https://ubuntu.com/tutorials/how-to-run-ubuntu-desktop-on-a-virtual-machine-using-virtualbox#1-overview).
+Install 
+
+* [Ubuntu on VirtualBox](https://ubuntu.com/tutorials/how-to-run-ubuntu-desktop-on-a-virtual-machine-using-virtualbox#1-overview) or
+* [Ubuntu on WSL](https://ubuntu.com/wsl)
+
 Then follow instructions for Ubuntu.
 
 ## Assignment details
