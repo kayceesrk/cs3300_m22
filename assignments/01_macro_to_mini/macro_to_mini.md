@@ -62,9 +62,8 @@ $ ./A1 < X.java
 
 ### Useful commands for assignment submission
 
-Assume that you have a folder called `cs20b220_P0` with the files that contain
-your solution. For assignment 1, this will contain just the Flex and the Bison
-files. 
+Assume that you have a folder called `cs20b220_P0` with the solution files. For
+assignment 1, this will contain just the Flex and the Bison files. 
 
 ```bash
 $ ls cs20b220_P0
