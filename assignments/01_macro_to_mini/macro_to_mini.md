@@ -34,12 +34,13 @@ Install
 
 Then follow instructions for Ubuntu.
 
-## Assignment details
+## Submission details
 
 Your submission should be named `<YOUR-ROLLNO>_P0.tar.gz` compressed file. For
 example, if your roll number is `cs20b220`, then the file should be named
-`cs20b220_P0.tar.gz`. The compressed gzip archive should contain two files. A
-Flex file named as `A1.l` and a Bison file named as `A1.y`.
+`cs20b220_P0.tar.gz`. The compressed gzip archive should contain a folder named
+`<YOUR-ROLLNO>_P0` with two files **and nothing else**. A Flex file named as
+`A1.l` and a Bison file named as `A1.y`.
 
 If `X.java` is a valid MacroJava program, then the following commands should
 generate the correct MiniJava code `Y.java`. Take input from standard input and
@@ -57,6 +58,38 @@ If the X.java file is not a valid MacroJava program, then output
 ```
 $ ./A1 < X.java
 //Failed to parse input code
+```
+
+### Useful commands for assignment submission
+
+Assume that you have a folder called `cs20b220_P0` with the files that contain
+your solution. For assignment 1, this will contain just the Flex and the Bison
+files. 
+
+```bash
+$ ls cs20b220_P0
+A1.l A1.y
+```
+
+You can create a compressed archive (specifically a `.tar.gz` file) as
+follows:
+
+```bash
+$ tar cvzf cs20b220_P0.tar.gz cs20b220_P0 
+a cs20b220_P0
+a cs20b220_P0/A1.y
+a cs20b220_P0/A1.l
+$ file cs20b220_P0.tar.gz 
+cs20b220_P0.tar.gz.: gzip compressed data, last modified: ....
+```
+
+You can uncompress the archive as follows:
+
+```bash
+tar xvzf cs20b220_P0.tar.gz
+x cs20b220_P0/
+x cs20b220_P0/A1.y
+x cs20b220_P0/A1.l
 ```
 
 ## MacroJava 
