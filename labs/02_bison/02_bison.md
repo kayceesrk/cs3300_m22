@@ -14,6 +14,9 @@ whose symbol is the grammar's start-symbol.
 
 The slides and demo files are available in the [Github repo](https://github.com/kayceesrk/cs3300_m22/tree/main/labs/02_bison).
 
+The video recording of the demo is
+[here](https://drive.google.com/file/d/14KxxRMf0SWNyF4yGN9Va5Mbx30e1MNJc/view?usp=sharing).
+
 # Mini-assignments
 
 Extend the demo files in the Github repo to handle `-`, `*` and `/` operators
