@@ -12,7 +12,7 @@ IDENTIFIER [a-z][a-z0-9]*
 }
 
 {IDENTIFIER} {
-  yylval.id = yytext;
+  yylval.id = strdup(yytext);
 	return ID;
 }
 
@@ -21,3 +21,5 @@ IDENTIFIER [a-z][a-z0-9]*
 \n { return EOL; }
 
 . { printf ("Lexer error: %s\n", yytext); exit (1); }
+
+
