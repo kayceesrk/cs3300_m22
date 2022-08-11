@@ -19,7 +19,8 @@
 %%
 
 s:
- | BRACE_OPEN s BRACE_CLOSE s;
+ | BRACE_OPEN { printf ("Saw open brace\n"); } s
+   BRACE_CLOSE { printf ("Saw close brace\n"); } s; // You can break a single production into multiple lines
 
 %%
 
