@@ -8,10 +8,19 @@ All assignments should be submitted through the [course
 moodle](https://courses.iitm.ac.in/course/view.php?id=4939). They are due at
 11:59 PM on the due date.
 
-| # | Topic | Due Date | Link |
-|--:|-------|----------|------|
-| 1 | MacroJava to MiniJava | 21/08/2022 | [macro_to_mini](/cs3300_m22/assignments/macro_to_mini.html) |
+| # | Topic | Release Date | Due Date | Points | Link |
+|--:|-------|--------------|----------|--------|------|
+| 1 | MacroJava to MiniJava | 01/08/2022 | 21/08/2022 | 19 | [macro_to_mini](/cs3300_m22/assignments/macro_to_mini.html) |
+| 2 | | 23/08/2022 | 11/09/2022 | 9  | |
+| 3 | | 13/09/2022 | 25/09/2022 | 19 | |
+| 3 | | 27/09/2022 | 02/10/2022 | 9  | |
+| 3 | | 04/10/2022 | 23/10/2022 | 19 | |
+| 3 | | 25/10/2022 | 06/11/2022 | 19 | |
 
+Six assignments and the in-lab mini assignments constitute 40% of the course
+grade. Six assignments in total add up to 94 assignment points. The in-lab mini
+assignments will account for 6 assignment points. Lab attendance is mandatory
+for getting the mini assignment points.
 
 <br/>
 

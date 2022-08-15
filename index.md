@@ -35,15 +35,15 @@ will have hands on experience on implementing a compiler for a subset of Java.
 * **Moodle**: [https://coursesnew.iitm.ac.in/course/view.php?id=306](https://coursesnew.iitm.ac.in/course/view.php?id=306)
 * **TAs:** 
 
-| Name | Email | Lead TA for Assignment |
-|------|-------|------------------------|
-| Vimala S                      | CS19D750@smail.iitm.ac.in | 3 |
-| Sheera Shamsu                 | CS20D001@smail.iitm.ac.in | 2 |
-| Pankaj Singh Rawat            | CS22M062@smail.iitm.ac.in | 4 | 
-| Sarthak Naithani              | CS22M078@smail.iitm.ac.in | 5 |
-| Ashok Rajeev                  | CS22M023@smail.iitm.ac.in | 5 | 
-| Bhavesh Surendra Singh        | CS22M030@smail.iitm.ac.in | 6 |
-| Jyothishmathi C V             | CS22M049@smail.iitm.ac.in | 6 |
+| Name                   | Email                     | Lead TA for Assignment |
+|------------------------|---------------------------|------------------------|
+| Vimala S               | CS19D750@smail.iitm.ac.in | 3                      |
+| Sheera Shamsu          | CS20D001@smail.iitm.ac.in | 2                      |
+| Pankaj Singh Rawat     | CS22M062@smail.iitm.ac.in | 4                      | 
+| Sarthak Naithani       | CS22M078@smail.iitm.ac.in | 5                      |
+| Ashok Rajeev           | CS22M023@smail.iitm.ac.in | 5                      |  
+| Bhavesh Surendra Singh | CS22M030@smail.iitm.ac.in | 6                      |
+| Jyothishmathi C V      | CS22M049@smail.iitm.ac.in | 6                      |
 
 <br/> 
 
