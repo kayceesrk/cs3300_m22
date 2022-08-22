@@ -28,6 +28,24 @@ should print either "Program type checked successfully" or "Type error". Note,
 your program must take input from standard input and write to standard output
 (so that we can use redirection).
 
+## Source files
+
+The source files are on
+[Github](https://github.com/kayceesrk/cs3300_m22/tree/main/assignments/02_typechecker).
+
+Get the source by cloning the entire repo:
+
+```bash
+$ git clone https://github.com/kayceesrk/cs3300_m22
+```
+
+If you have already cloned the repo, you can get the latest updates by:
+
+```bash
+$ cs cs3300_m22 # go to the cloned repo
+$ git pull
+```
+
 ## Submission
 
 Rename the folder `RollN0_P1` with your roll number. For example, if your roll
