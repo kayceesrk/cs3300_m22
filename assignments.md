@@ -11,7 +11,7 @@ moodle](https://courses.iitm.ac.in/course/view.php?id=4939). They are due at
 | # | Topic | Release Date | Due Date | # days | Points | Link |
 |--:|-------|--------------|----------|--------|--------|------|
 | 1 | MacroJava to MiniJava | 01/08/2022 | 21/08/2022 | 20 | 19 | [macro_to_mini](/cs3300_m22/assignments/macro_to_mini.html) |
-| 2 |                       | 23/08/2022 | 11/09/2022 | 19 | 9  | |
+| 2 | Type Checker          | 23/08/2022 | 11/09/2022 | 19 | 9  | [typechecker](/cs3300_m22/assignments/typechecker.html) |
 | 3 |                       | 13/09/2022 | 25/09/2022 | 12 | 19 | |
 | 4 |                       | 27/09/2022 | 02/10/2022 |  5 | 9  | |
 | 5 |                       | 04/10/2022 | 23/10/2022 | 19 | 19 | |
