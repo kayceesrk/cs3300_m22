@@ -42,7 +42,7 @@ $ git clone https://github.com/kayceesrk/cs3300_m22
 If you have already cloned the repo, you can get the latest updates by:
 
 ```bash
-$ cs cs3300_m22 # go to the cloned repo
+$ cd cs3300_m22 # go to the cloned repo
 $ git pull
 ```
 
@@ -53,7 +53,7 @@ number is `cs99b999`, then the folder should be named `cs99b999_P1`. Remove all
 the `.class` files before submission. For example, you can do:
 
 ```bash
-$ cs cs99b999_P1
+$ cd cs99b999_P1
 $ find . -name "*.class" | xargs rm
 ```
 
