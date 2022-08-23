@@ -16,7 +16,7 @@ optimizing compiler. In this assignment, we will implement a type checker for
 the minijava compiler.
 
 Use JTB and JavaCC and write in Java one or more visitors which type check a
-MiniJava program. Your main file should be called P1.java, and if A.java
+MiniJava program. Your main file should be called `P1.java`, and if `A.java`
 contains a program to be type checked, then
 
 ```bash
