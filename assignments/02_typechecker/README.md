@@ -28,7 +28,7 @@ should print either "Program type checked successfully" or "Type error". Note,
 your program must take input from standard input and write to standard output
 (so that we can use redirection).
 
-## Source files
+## Resources
 
 The source files are on
 [Github](https://github.com/kayceesrk/cs3300_m22/tree/main/assignments/02_typechecker).
@@ -45,13 +45,12 @@ If you have already cloned the repo, you can get the latest updates by:
 $ cd cs3300_m22 # go to the cloned repo
 $ git pull
 ```
-## Link to minijava BNF
 
-https://www.cse.iitm.ac.in/~krishna/cs3300/minijava-spec.html
+The MiniJava grammar specification is
+[here](https://www.cse.iitm.ac.in/~krishna/cs3300/minijava-spec.html).
 
-## Type Checking rules
-
-https://web.cs.ucla.edu/~palsberg/course/cs132/old-miniJava-typesystem.pdf
+The type checking rules for MiniJava is
+[here](/cs3300_m22/assets/miniJava-typesystem.pdf).
 
 ## Submission
 
