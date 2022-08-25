@@ -12,7 +12,7 @@ permalink: /schedule/
 | 2 | Lexical Analysis | 27/07, 29/07 | [02_lexical_analysis.pdf](slides/02_lexical_analysis.pdf) | |
 | 3 | Parsing | 29/07, 01/08, 02/08, 03/08, 05/08 | [03_parsing.pdf](slides/03_parsing.pdf) | |
 | 4 | Bottom-up Parsing | 05/08, 08/08, 10/08, 12/08, 16/08, 17/08, 22/08 | [04_bottom_up_parsing.pdf](slides/04_bottom_up_parsing.pdf) | |
-| 5 | Semantic Analysis | 23/08 | [05_semantic_analysis.pdf](slides/05_semantic_analysis.pdf) | [MiniJava Type System](/cs3300_m22/assets/miniJava-typesystem.pdf) |
+| 5 | Semantic Analysis | 23/08, 24/08 | [05_semantic_analysis.pdf](slides/05_semantic_analysis.pdf) | [MiniJava Type System](/cs3300_m22/assets/miniJava-typesystem.pdf) |
 
 <br/>
 
