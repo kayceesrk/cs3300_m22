@@ -28,6 +28,7 @@ should print either "Program type checked successfully" or "Type error". Note,
 your program must take input from standard input and write to standard output
 (so that we can use redirection).
 
+Note: Please do not alter the directory structure of `RollN0_P1`. Only edit `GJDepthFirst.java` and `P1.java`
 ## Resources
 
 The source files are on
@@ -70,3 +71,5 @@ $ tar cvzf cs99b999_P1.tar.gz cs99b999_P1
 ```
 
 Submit the `.tar.gz` file. 
+
+Note: You should thoroughly test your code. Some sample mini java programs are provided for testing. Create positive and negative tests per feature and test your code before submission. Please ensure that there are no compilation errors. If there are compilation errors, that code will yield zero marks.
