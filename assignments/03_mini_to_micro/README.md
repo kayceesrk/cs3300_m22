@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Assignment 03 - Minijava to microIR Translator
-permalink: /assignments/03_mini_to_micro
+permalink: /assignments/mini_to_micro
 ---
 
 | Release Date | 13/09/2022 |
