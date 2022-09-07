@@ -8,6 +8,7 @@ permalink: /assignments/03_mini_to_micro
 | Deadline     | 25/09/2022, 23:59 hours |
 
 <br/>
+
 This assignment is the second part of a multi part project to write an 
 optimizing compiler for Minijava. We start with type checked Minijava 
 programs and generate programs in MircoIR format. Akin to a standard 
