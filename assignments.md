@@ -12,7 +12,7 @@ moodle](https://courses.iitm.ac.in/course/view.php?id=4939). They are due at
 |--:|-------|--------------|----------|--------|--------|------|
 | 1 | MacroJava to MiniJava | 01/08/2022 | 21/08/2022 | 20 | 19 | [macro_to_mini](/cs3300_m22/assignments/macro_to_mini.html) |
 | 2 | Type Checker          | 23/08/2022 | 11/09/2022 | 19 | 9  | [typechecker](/cs3300_m22/assignments/typechecker.html) |
-| 3 | MiniJava to microIR   | 23/08/2022 | 11/09/2022 | 19 | 9  | [mini_to_micro](/cs3300_m22/assignments/mini_to_micro.html) |
+| 3 | MiniJava to microIR   | 13/09/2022 | 25/09/2022 | 12 | 19  | [mini_to_micro](/cs3300_m22/assignments/mini_to_micro.html) |
 | 4 |                       | 27/09/2022 | 02/10/2022 |  5 | 9  | |
 | 5 |                       | 04/10/2022 | 23/10/2022 | 19 | 19 | |
 | 6 |                       | 25/10/2022 | 06/11/2022 | 12 | 19 | |
