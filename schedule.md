@@ -14,7 +14,8 @@ permalink: /schedule/
 | 4 | Bottom-up Parsing | 05/08, 08/08, 10/08, 12/08, 16/08, 17/08, 22/08 | [04_bottom_up_parsing.pdf](slides/04_bottom_up_parsing.pdf) | |
 | 5 | Semantic Analysis | 23/08, 24/08, 26/08, 05/09 | [05_semantic_analysis.pdf](slides/05_semantic_analysis.pdf) | [MiniJava Type System](/cs3300_m22/assets/miniJava-typesystem.pdf) |
 | 6 | Syntax Directed Translation | 05/09, 07/09, 19/09 | [06_sdt.pdf](slides/06_sdt.pdf) | |
-| 7 | Intermediate Representation | | [07_ir.pdf](slides/07_ir.pdf) | |
+| 7 | Intermediate Representation | 20/09, 21/09, 23/09 | [07_ir.pdf](slides/07_ir.pdf) | |
+| 8 | Runtime Management | | [08_runtime.pdf](slides/08_runtime.pdf) | |
 
 <br/>
 
