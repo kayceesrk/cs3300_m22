@@ -1,0 +1,401 @@
+options {
+  JAVA_UNICODE_ESCAPE = true;
+}
+
+PARSER_BEGIN(MiniRAParser)
+  public class MiniRAParser {}
+PARSER_END(MiniRAParser)
+
+SKIP : /* WHITE SPACE */
+{
+  " "
+| "\t"
+| "\n"
+| "\r"
+| "\f"
+}
+
+SPECIAL_TOKEN : /* COMMENTS */
+{
+ <FORMAL_COMMENT: "/**" (~["*"])* "*" ("*" | (~["*","/"] (~["*"])* "*"))* "/">
+| <MULTI_LINE_COMMENT: "/*" (~["*"])* "*" ("*" | (~["*","/"] (~["*"])* "*"))* "/">
+}
+
+TOKEN : 
+{
+  < LPAREN: "(" >
+| < RPAREN: ")" >
+| < LBRACE: "{" >
+| < RBRACE: "}" >
+| < LSQPAREN: "[" >
+| < RSQPAREN: "]" >
+| < DOT: "." >
+| < LE: "LE" >
+| < NE: "NE" >
+| < PLUS: "PLUS" >
+| < MINUS: "MINUS" >
+| < TIMES : "TIMES" >  
+| < DIV : "DIV" >  
+| < MAIN: "MAIN" >    
+| < CODE: "CODE" >    
+| < HALLOCATE: "HALLOCATE" >    
+| < SPILLEDARG: "SPILLEDARG" >    
+| < END: "END" >    
+| < NOOP: "NOOP" >    
+| < MOVE : "MOVE" >    
+| < CALL : "CALL" >     
+| < ERROR : "ERROR" >     
+| < PRINT: "PRINT" >     
+| < BEGIN: "BEGIN" >     
+| < RETURN: "RETURN" >     
+| < JUMP : "JUMP" >    
+| < CJUMP : "CJUMP" >    
+| < HSTORE: "HSTORE" >    
+| < HLOAD : "HLOAD" >   
+| < ALOAD : "ALOAD" >    
+| < ASTORE : "ASTORE" >    
+| < PASSARG : "PASSARG" >    
+| < MEM: "MEM" >
+| < TEMP: "TEMP" >   
+| < ARG: "ARG" >   
+| < ZERO: "zero" >
+| < SPILLED: "SPILLED">
+| < NOTSPILLED: "NOTSPILLED">
+| < at: "at" >
+| < v0: "v0" >
+| < v1: "v1" >
+| < a0: "a0" >
+| < a1: "a1" >
+| < a2: "a2" >
+| < a3: "a3" >
+| < t0: "t0" >
+| < t1: "t1" >
+| < t2: "t2" >
+| < t3: "t3" >
+| < t4: "t4" >
+| < t5: "t5" >
+| < t6: "t6" >
+| < t7: "t7" >
+| < s0: "s0" >
+| < s1: "s1" >
+| < s2: "s2" >
+| < s3: "s3" >
+| < s4: "s4" >
+| < s5: "s5" >
+| < s6: "s6" >
+| < s7: "s7" >
+| < t8: "t8" >
+| < t9: "t9" >
+| < k0: "k0" >
+| < k1: "k1" >
+| < gp: "gp" >
+| < sp: "sp" >
+| < fp: "fp" >
+| < ra: "ra" >
+}
+
+TOKEN : /* LITERALS */
+{
+  < INTEGER_LITERAL: ( ["1"-"9"] (["0"-"9"])* | "0" ) >
+}
+
+TOKEN : /* IDENTIFIERS */
+{
+  < IDENTIFIER: <LETTER> (<LETTER>|<DIGIT>)* >
+|
+  < #LETTER:
+      [
+       "\u0024",
+       "\u0041"-"\u005a",
+       "\u005f",
+       "\u0061"-"\u007a",
+       "\u00c0"-"\u00d6",
+       "\u00d8"-"\u00f6",
+       "\u00f8"-"\u00ff",
+       "\u0100"-"\u1fff",
+       "\u3040"-"\u318f",
+       "\u3300"-"\u337f",
+       "\u3400"-"\u3d2d",
+       "\u4e00"-"\u9fff",
+       "\uf900"-"\ufaff"
+      ]
+  >
+|
+  < #DIGIT:
+      [
+       "\u0030"-"\u0039",
+       "\u0660"-"\u0669",
+       "\u06f0"-"\u06f9",
+       "\u0966"-"\u096f",
+       "\u09e6"-"\u09ef",
+       "\u0a66"-"\u0a6f",
+       "\u0ae6"-"\u0aef",
+       "\u0b66"-"\u0b6f",
+       "\u0be7"-"\u0bef",
+       "\u0c66"-"\u0c6f",
+       "\u0ce6"-"\u0cef",
+       "\u0d66"-"\u0d6f",
+       "\u0e50"-"\u0e59",
+       "\u0ed0"-"\u0ed9",
+       "\u1040"-"\u1049"
+      ]
+  >
+}
+
+/*********************************
+ * The MiniRA Grammar Starts Here. Source Jens Palsberg*
+ *********************************/
+
+
+void Goal() :
+{}
+{
+  "MAIN" "[" IntegerLiteral() "]" "[" IntegerLiteral() "]" "[" IntegerLiteral() "]" StmtList() "END" (SpillInfo())? ( Procedure() )* 
+  <EOF>
+}
+
+void StmtList() :
+{}
+{
+  ( ( Label() )? Stmt() )*
+}
+
+void Procedure() :
+{}
+{
+  Label() "[" IntegerLiteral() "]" "[" IntegerLiteral() "]" "[" IntegerLiteral() "]" StmtList() "END" (SpillInfo())?
+}
+
+void Stmt() :
+{}
+{
+  NoOpStmt()
+| 
+  ErrorStmt()
+|
+  CJumpStmt()
+|
+  JumpStmt()
+| 
+  HStoreStmt()
+|
+  HLoadStmt()
+|
+  MoveStmt()
+|
+  PrintStmt()
+|
+  ALoadStmt()
+|
+  AStoreStmt()
+|
+  PassArgStmt()
+|
+  CallStmt()	
+}
+
+void NoOpStmt() :
+{}
+{	
+  "NOOP" 
+}
+
+void ErrorStmt() :
+{}
+{	
+  "ERROR" 
+}
+
+void CJumpStmt() :
+{}
+{	
+  "CJUMP" Reg() Label() 
+}
+
+void JumpStmt() :
+{}
+{
+  "JUMP" Label()
+}
+
+void HStoreStmt() :
+{}
+{
+  "HSTORE" Reg() IntegerLiteral() Reg()
+}
+
+void HLoadStmt() :
+{}
+{
+  "HLOAD" Reg() Reg() IntegerLiteral() 
+}
+
+void MoveStmt() :
+{}
+{
+  "MOVE" Reg() Exp() 
+}
+
+void PrintStmt() :
+{}
+{
+  "PRINT" SimpleExp() 
+}
+
+
+void ALoadStmt() :
+{}
+{
+  "ALOAD" Reg() SpilledArg()
+}
+
+void AStoreStmt() :
+{}
+{
+  "ASTORE" SpilledArg() Reg()
+}
+
+void PassArgStmt() :
+{}
+{
+  "PASSARG" IntegerLiteral() Reg()
+}
+
+void CallStmt() :
+{}
+{       
+  "CALL" SimpleExp()
+}
+
+
+void Exp():
+{}   
+{
+  HAllocate()
+|
+  BinOp()
+| 
+  SimpleExp()
+}
+
+
+void HAllocate() :
+{}
+{       
+  "HALLOCATE" SimpleExp()
+}
+
+void BinOp() :
+{}
+{
+  Operator() Reg() SimpleExp()
+}
+
+void Operator() :
+{}
+{
+  "LE" 
+| 
+  "NE" 
+| 
+  "PLUS" 
+| 
+  "MINUS" 
+| 
+  "TIMES" 
+| 
+  "DIV" 
+}
+
+void SpilledArg() :
+{}
+{
+  "SPILLEDARG" IntegerLiteral()
+}
+
+void SimpleExp() :
+{}
+{
+  Reg()
+|
+  IntegerLiteral()
+|
+  Label()
+}
+
+void Reg() :
+{}
+{
+  "a0"
+|
+  "a1"
+| 
+  "a2"
+|
+  "a3"
+|
+  "t0"
+|
+  "t1"
+|
+  "t2"
+|
+  "t3"
+|
+  "t4"
+|
+  "t5"
+|
+  "t6"
+|
+  "t7"
+|
+  "s0"
+|
+  "s1"
+|
+  "s2"
+|
+  "s3"
+|
+  "s4"
+|
+  "s5"
+|
+  "s6"
+|
+  "s7"
+|
+  "t8"
+|
+  "t9"
+|
+  "v0"
+|
+  "v1"	
+}
+
+void IntegerLiteral() :
+{}
+{
+  <INTEGER_LITERAL>
+}
+
+void Label() :
+{}
+{
+  <IDENTIFIER>
+}
+
+void SpillInfo() :
+{}
+{
+	"//" SpillStatus()
+}
+
+void SpillStatus() :
+{}
+{
+	<SPILLED>
+	| <NOTSPILLED>
+}
