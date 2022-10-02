@@ -19,12 +19,12 @@ Register Allocation must be carried out using the Linear Scan algorithm.
 
 Use JTB and JavaCC and write in Java one or more visitors which 
 translate MicroIR programs to MiniRA form. 
-Your main file should be called P3.java, 
+Your main file should be called P4.java, 
 if A.microIR contains a program to be register allocated then
 
 ```bash
-$ javac P3.java
-$ java P3 < A.microIR > A.RA
+$ javac P4.java
+$ java P4 < A.microIR > A.RA
 ```
 
 should create A.RA in miniRA form and is semantically equivalent to A.microIR. 
@@ -40,8 +40,8 @@ say the generated miniRA code is stored in A.miniRA,
 then to invoke the interpreter use: java -jar kgi.jar < A.miniRA ]
 
 
-Note: Please do not alter the directory structure of `RollN0_P3`. 
-Only edit `GJDepthFirst.java` and `P3.java`
+Note: Please do not alter the directory structure of `RollN0_P4`. 
+Only edit `GJDepthFirst.java` and `P4.java`
 ## Resources
 
 The source files are on
@@ -69,19 +69,19 @@ The miniRA grammar specification is
 
 ## Submission
 
-Rename the folder `RollN0_P3` with your roll number. For example, if your roll
-number is `cs99b999`, then the folder should be named `cs99b999_P3`. Remove all
+Rename the folder `RollN0_P4` with your roll number. For example, if your roll
+number is `cs99b999`, then the folder should be named `cs99b999_P4`. Remove all
 the `.class` files before submission. For example, you can do:
 
 ```bash
-$ cd cs99b999_P3
+$ cd cs99b999_P4
 $ find . -name "*.class" | xargs rm
 ```
 
 Then produce the compressed gzip archive as follows:
 
 ```bash
-$ tar cvzf cs99b999_P3.tar.gz cs99b999_P3
+$ tar cvzf cs99b999_P4.tar.gz cs99b999_P4
 ```
 
 Submit the `.tar.gz` file. 
