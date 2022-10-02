@@ -4,17 +4,17 @@ title: Assignment 04 - microIR to miniRA Translator
 permalink: /assignments/micro_to_mini
 ---
 
-| Release Date | 27/09/2022 |
-| Deadline     | 02/10/2022, 23:59 hours |
+| Release Date | 04/10/2022 |
+| Deadline     | 23/10/2022, 23:59 hours |
 
 <br/>
 
 This assignment is the fourth part of a multi part project to 
 write an optimizing compiler for Minijava. In this assignment, 
 we start with programs in 
-[microIR](https://github.com/kayceesrk/cs3300_m22/tree/main/assets) 
+[microIR](https://github.com/kayceesrk/cs3300_m22/tree/main/assets/BNF-microIR.pdf) 
 format and translate them to 
-[miniRA](https://github.com/kayceesrk/cs3300_m22/tree/main/assets). 
+[miniRA](https://github.com/kayceesrk/cs3300_m22/tree/main/assets/BNF-miniRA.pdf). 
 Register Allocation must be carried out using the Linear Scan algorithm. 
 
 Use JTB and JavaCC and write in Java one or more visitors which 
@@ -61,10 +61,10 @@ $ git pull
 ```
 
 The microIR grammar specification is 
-[BNF-microIR](https://github.com/kayceesrk/cs3300_m22/tree/main/assets).
+[BNF-microIR](https://github.com/kayceesrk/cs3300_m22/tree/main/assets/BNF-microIR.pdf).
 
 The miniRA grammar specification is 
-[BNF-miniRA](https://github.com/kayceesrk/cs3300_m22/tree/main/assets).
+[BNF-miniRA](https://github.com/kayceesrk/cs3300_m22/tree/main/assets/BNF-miniRA.pdf).
 
 
 ## Submission
