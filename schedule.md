@@ -15,14 +15,7 @@ permalink: /schedule/
 | 5 | Semantic Analysis | 23/08, 24/08, 26/08, 05/09 | [05_semantic_analysis.pdf](slides/05_semantic_analysis.pdf) | [MiniJava Type System](/cs3300_m22/assets/miniJava-typesystem.pdf) |
 | 6 | Syntax Directed Translation | 05/09, 07/09, 19/09 | [06_sdt.pdf](slides/06_sdt.pdf) | |
 | 7 | Intermediate Representation | 20/09, 21/09, 23/09, 26/09 | [07_ir.pdf](slides/07_ir.pdf) | |
-| 8 | Runtime Management | 27/09 | [08_runtime.pdf](slides/08_runtime.pdf) | |
+| 8 | Runtime Management | 27/09, 28/09, 30/09 | [08_runtime.pdf](slides/08_runtime.pdf) | |
+| 9 | Liveness Analysis and Register Allocation | 30/09, 03/10, 07/10 | [09_register_allocation.pdf](slides/09_register_allocation.pdf) | |
 
 <br/>
-
-# Labs
-
-| # | Topic | Dates | Page |
-|--:|-------|-------|------|
-| 1 | Flex  | 02/08 | [01_flex](/cs3300_m22/labs/01_flex.html) |
-| 2 | Bison | 09/08 | [02_bison](/cs3300_m22/labs/02_bison.html) |
-| 3 | Type checker | 23/08 | |
