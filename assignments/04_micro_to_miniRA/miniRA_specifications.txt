@@ -1,0 +1,51 @@
+MiniRA
+
+miniRA SPECIFICATION
+
+MiniRA is a MIPS-oriented language. It is a lot like microIR, but with the following changes:
+
+1) MiniRA supports C-style comments.
+
+2) Labels now have global rather than local scope.
+
+3) Instead of an unbounded number of temporaries with local scope, MiniRA has 24 global machine registers with global scope. The registers s0-s7 and t0-t9 can be allocated for general use. Registers a0-a3 are reserved to pass arguments to a procedure call. Register v0 is reserved to return a result from a procedure call, and v0 and v1 are also used as temporary registers when values need to be loaded from the stack. s0-s7 are callee saved. t0-t9 are caller saved.
+
+4) Values can be loaded from and stored to the stack with the ALOAD and ASTORE instructions, where (SPILLEDARG i) denotes the ith value on the stack, with the first value at (SPILLEDARG 0). For example:
+
+ALOAD s3 (SPILLEDARG 1)
+
+loads the second value from the stack into register s3.
+
+5) A procedure body is no longer a StmtExp but a StmtList. The return value should be put in register v0.
+
+6) Call is now a statement. As mentioned above, the "a" registers are used to send arguments. If there are more than 4 arguments to the call, you need to use the PASSARG stmt, which saves the extra args to the stack. For whatever reason, PASSARG starts at 1, but SPILLEDARG starts at 0, so in general an argument passed as (PASSARG i) is accessed in the body of the procedure as (SPILLEDARG i-1).
+
+Here's an example. Consider a call to some procedure with label P and arguments stored in registers t1, t2, t3, t4, and t5, and where the return value should go in t6.
+
+MOVE a0 t1 // first move 4 args to the "a" registers
+
+MOVE a1 t2
+
+MOVE a2 t3
+
+MOVE a3 t4
+
+PASSARG 1 t5 // if there are more args save them to the stack.
+
+// note that PASSARG is 1-based, not 0-based!
+
+CALL P
+
+MOVE t6 v0 // the return value is in v0
+
+7) A procedure has three integers in its header, for example:
+
+procA [5] [3] [4]
+
+The first integer has the same meaning as the integer in microIR, i.e. the number of args taken by the procedure.
+
+The second integer is for the number of stack slots that the procedure requires. This is the total number, including space for arguments (if necessary), space for any spilled temps, and space for any registers that have to be saved.
+
+The third integer is the maximum arguments of a call in the body of procA. i.e. if procA makes a call to procB that takes 3 args, to procC that takes 2 args, and to procD that takes 4 args, then since 4 is the maximum args a call in the body of procA uses, this integer is set to 4.
+
+8) After each method there is a note indicating whether any temporary was spilled by the register allocator. Note, here we are NOT referring to the saving and restoring of the caller/callee-saved registers.
