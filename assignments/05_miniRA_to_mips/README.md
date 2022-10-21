@@ -58,10 +58,10 @@ $ git pull
 ```
 
 The miniRA grammar specification is 
-[BNF-microIR](https://github.com/kayceesrk/cs3300_m22/tree/main/assets).
+[BNF-miniRA](https://github.com/kayceesrk/cs3300_m22/tree/main/assets).
 
 The mips grammar specification is 
-[BNF-miniRA](https://github.com/kayceesrk/cs3300_m22/tree/main/assets).
+[mips_specifications](https://github.com/kayceesrk/cs3300_m22/tree/main/assets).
 
 
 ## Submission
