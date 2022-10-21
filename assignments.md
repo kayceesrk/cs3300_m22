@@ -14,7 +14,7 @@ moodle](https://courses.iitm.ac.in/course/view.php?id=4939). They are due at
 | 2 | Type Checker          | 23/08/2022 | 11/09/2022 | 19 | 19 | [typechecker](/cs3300_m22/assignments/typechecker.html) |
 | 3 | MiniJava to microIR   | 13/09/2022 | 02/10/2022 | 19 | 19 | [mini_to_micro](/cs3300_m22/assignments/mini_to_micro.html) |
 | 4 | microIR to miniRA     | 04/10/2022 | 26/10/2022 | 19 | 19 | [micro_to_mini](/cs3300_m22/assignments/micro_to_mini.html) |
-| 5 |                       | 25/10/2022 | 06/11/2022 | 12 | 19 | |
+| 5 | miniRA to MIPS Assembly| 25/10/2022 | 06/11/2022 | 12 | 19 | [miniRA_to_mips](/cs3300_m22/assignments/miniRA_to_mips.html) |
 
 <br/>
 
