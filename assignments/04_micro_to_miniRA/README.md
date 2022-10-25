@@ -4,8 +4,8 @@ title: Assignment 04 - microIR to miniRA Translator
 permalink: /assignments/micro_to_mini
 ---
 
-| Release Date | 27/09/2022 |
-| Deadline     | 02/10/2022, 23:59 hours |
+| Release Date | 04/10/2022 |
+| Deadline     | 23/10/2022, 23:59 hours |
 
 <br/>
 
