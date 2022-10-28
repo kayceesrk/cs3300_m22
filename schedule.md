@@ -19,6 +19,6 @@ permalink: /schedule/
 | 9 | Liveness Analysis and Register Allocation | 30/09, 03/10, 07/10 | [09_register_allocation.pdf](slides/09_register_allocation.pdf) | [Linear Scan Register Allocation Paper](http://web.cs.ucla.edu/~palsberg/course/cs132/linearscan.pdf) |
 | 10 | Basic Blocks and CFG | 07/10, 10/10 | [10_basic_blocks_cfg.pdf](slides/10_basic_blocks_cfg.pdf) | |
 | 11 | Basic Block Optimizations | 18/10, 19/10 | [11_basic_block_opt.pdf](slides/11_basic_block_opt.pdf) | |
-| 12 | Global Optimizations | | [12_global_opt.pdf](slides/12_global_opt.pdf) | |
+| 12 | Global Optimizations | 25/10, 26/10, 28/10 | [12_global_opt.pdf](slides/12_global_opt.pdf) | |
 
 <br/>
